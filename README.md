@@ -41,4 +41,65 @@
 
 ## Contáctame
 
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JOGUERRA2023)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-jacobo-guerra-gonzales-939497335/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jj.teamcode@gmail.com)
+
+---
+
+### **Sobre mí**
+
+<div align="center">
+  <p id="typewriter" style="font-size: 1.2em; font-weight: bold;"></p>
+</div>
+
+<script>
+  const phrases = [
+    "Systems Engineer | Developer Analyst",
+    "Apasionado por la tecnología y la innovación."
+  ];
+  let i = 0;
+  let j = 0;
+  let currentPhrase = [];
+  let isDeleting = false;
+  let isEnd = false;
+
+  function typewriter() {
+    isEnd = false;
+    const typewriterElement = document.getElementById("typewriter");
+
+    if (i < phrases.length) {
+      if (!isDeleting && j <= phrases[i].length) {
+        currentPhrase.push(phrases[i][j]);
+        j++;
+        typewriterElement.innerHTML = currentPhrase.join("");
+      }
+
+      if (isDeleting && j >= 0) {
+        currentPhrase.pop();
+        j--;
+        typewriterElement.innerHTML = currentPhrase.join("");
+      }
+
+      if (j === phrases[i].length) {
+        isEnd = true;
+        isDeleting = true;
+      }
+
+      if (isDeleting && j === 0) {
+        currentPhrase = [];
+        isDeleting = false;
+        i++;
+        if (i === phrases.length) {
+          i = 0;
+        }
+      }
+    }
+
+    const speed = isDeleting ? 50 : 100;
+    const delay = isEnd ? 2000 : speed;
+    setTimeout(typewriter, delay);
+  }
+
+  typewriter();
+</script>
