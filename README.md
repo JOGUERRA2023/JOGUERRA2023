@@ -2,18 +2,14 @@
 
 # ¡Hola! 👋 Soy Jose Guerra
 
-### Desarrollador Full Stack | Apasionado por la tecnología
+### Full Stack Developer | Apasionado por la tecnología
 
 ---
 
 ### **Sobre mí**
 
 <p style="font-size: 1.2em; font-weight: bold;">
-  Systems Engineer | Developer Analyst
-</p>
-
-<p style="font-size: 1.2em; font-weight: bold;">
-  Apasionado por la tecnología y la innovación.
+Con más de 5 años de experiencia en el desarrollo de aplicaciones móviles, desktop, web y APIs REST. Especializado en el uso de tecnologías como Angular, Xamarin, MAUI .NET, .NET Core, Java, SQL Server, PostgreSQL y C#. Apasionado por crear soluciones tecnológicas innovadoras, escalables y de alto rendimiento.
 </p>
 
 </div>
