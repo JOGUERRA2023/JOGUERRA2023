@@ -1,12 +1,10 @@
 <div align="center">
 
-# ¡Hola! 👋 Soy Jose Guerra
-
-### Full Stack Developer | Apasionado por la tecnología
+<!-- Simulación de animación de texto -->
+<h1 id="welcome-text" style="font-size: 2em; font-weight: bold;">¡Hola! 👋 Bienvenido a mi perfil</h1>
+<h2 id="name-text" style="font-size: 1.5em; font-weight: bold; margin-top: 10px;">Soy Jose Guerra, Developer</h2>
 
 ---
-
-### **Sobre mí**
 
 <p style="font-size: 1.2em; font-weight: bold;">
 Con más de 5 años de experiencia en el desarrollo de aplicaciones móviles, desktop, web y APIs REST. Especializado en el uso de tecnologías como Angular, Xamarin, MAUI .NET, .NET Core, Java, SQL Server, PostgreSQL y C#. Apasionado por crear soluciones tecnológicas innovadoras, escalables y de alto rendimiento.
